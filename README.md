@@ -74,6 +74,21 @@ You can also use Intorial with html, without any framework:
 </html>
 ```
 
+# Imports
+You can import **all** components from intorial via simple:
+```js
+import "intorial"
+```
+
+You can also use separate imports, to import components, that you need:
+```js
+import "intorial/theory"   // Theory, hint, diagram, tyan components
+import "intorial/practice" // Practice, math, code components
+import "intorial/quiz"     // Quiz and question components
+import "intorial/control"  // Control component
+import "intorial/section"  // Theory, practice and section components (without any content components)
+```
+
 # Components
 | Component Name    | Description                                                                                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
