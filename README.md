@@ -17,7 +17,7 @@ bun install intorial # Bun
 ## Using with Nuxt Content or Next.js
 You can use [Nuxt Content MDC](https://content.nuxt.com/usage/markdown) or [Next.js MDX](https://nextjs.org/docs/pages/building-your-application/configuring/mdx) for creating **pages** with tutorials:
 ```jsx
-import "intorial/full" // Needed for side-effects
+import "intorial" // Needed for side-effects
 
 const Page = () => {
   return (<>
