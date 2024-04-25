@@ -1,4 +1,3 @@
-
 ![Untitled Banner](https://github.com/tokiory/intorial/assets/101672047/72c148b9-f9dd-4b9c-bbce-6a80db66ba7b)
 
 **Intorial** is a native web components library designed to help you create interactive tutorials with ease. With Intorial, you can create modular, reusable, and encapsulated tutorials that can be used on any page.
@@ -89,6 +88,9 @@ import "intorial/control"  // Control component
 import "intorial/section"  // Theory, practice and section components (without any content components)
 ```
 
+# Styling
+TODO
+
 # Components
 | Component Name    | Description                                                                                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -105,3 +107,11 @@ import "intorial/section"  // Theory, practice and section components (without a
 | intorial-question | Question component, used to create questions for quizzes                                                                                          |
 | intorial-tyan     | Girl mascot component, you can use it in hints                                                                                                    |
 
+---
+
+<p align="center">
+  <img width="125" alt="logo" src="https://github.com/tokiory/intorial/assets/101672047/aa98519d-280d-4190-923f-640fa6346d26" />
+</p>
+<p align="center">
+    Coded by <a href="https://t.me/tokiory">tokiory</a> with ❤️
+</p>
