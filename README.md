@@ -10,12 +10,17 @@ import "intorial/full" // Needed for side-effects
 const Page = () => {
   return (<>
     <intorial-view>
-      <intorial-theory>
-        Information about topic, some minimal examples
-      </intorial-theory>
-      <intorial-practice>
-        Code blocks, notes and other stuff
-      </intorial-practice>
+
+      <intorial-section>
+        <intorial-theory>
+          Information about topic, some minimal examples
+        </intorial-theory>
+
+        <intorial-practice>
+          Code blocks, notes and other stuff
+        </intorial-practice>
+      </intorial-section>
+
     <intorial-view>
   </>)
 }
