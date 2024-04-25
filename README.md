@@ -86,4 +86,5 @@ You can also use Intorial with html, without any framework:
 | intorial-hint     | Hint component, used to provide hints for theory content                                                                                          |
 | intorial-quiz     | Quiz component, used to create quizzes                                                                                                            |
 | intorial-question | Question component, used to create questions for quizzes                                                                                          |
+| intorial-tyan     | Girl mascot component, you can use it in hints                                                                                                    |
 
