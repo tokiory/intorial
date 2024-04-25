@@ -1,3 +1,5 @@
+![Banner from Figma](https://github.com/tokiory/intorial/assets/101672047/498ae953-50f5-48be-9670-eea836e639e7)
+
 **Intorial** ― Web components for tutorial pages.
 
 # Usage
