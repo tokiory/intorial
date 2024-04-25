@@ -1,6 +1,5 @@
-![Banner from Figma](https://github.com/tokiory/intorial/assets/101672047/498ae953-50f5-48be-9670-eea836e639e7)
 
-**Intorial** ― Web components for tutorial pages.
+![Untitled Banner](https://github.com/tokiory/intorial/assets/101672047/72c148b9-f9dd-4b9c-bbce-6a80db66ba7b)
 
 # Usage
 You can use Nuxt Content or Next mdx for creating pages with tutorials.
