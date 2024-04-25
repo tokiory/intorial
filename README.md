@@ -1,4 +1,4 @@
-![Untitled Banner](https://github.com/tokiory/intorial/assets/101672047/72c148b9-f9dd-4b9c-bbce-6a80db66ba7b)
+![Intorial Banner](https://github.com/tokiory/intorial/assets/101672047/daec04ea-d2a4-457e-b3e5-ed830cd53387)
 
 **Intorial** is a native web components library designed to help you create interactive tutorials with ease. With Intorial, you can create modular, reusable, and encapsulated tutorials that can be used on any page.
 
