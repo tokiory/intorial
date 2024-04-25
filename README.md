@@ -83,6 +83,8 @@ You can also use Intorial with html, without any framework:
 | intorial-theory   | Theory component, used to create a topic theory, which will be placed in the left part of the screen                                              |
 | intorial-practice | Practice component, used to create a topic practice content. You can place codeblocks, code editors, and more practice content in this component. |
 | intorial-code     | Codeblock component, used to paste theory/practice code                                                                                           |
+| intorial-math     | Math component, LaTeX rendering block                                                                                                             |
+| intorial-diagram  | Diagram component, use can use mermaid syntax to show your ideas in diagrams                                                                      |
 | intorial-hint     | Hint component, used to provide hints for theory content                                                                                          |
 | intorial-quiz     | Quiz component, used to create quizzes                                                                                                            |
 | intorial-question | Question component, used to create questions for quizzes                                                                                          |
