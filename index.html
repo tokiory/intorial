@@ -1,16 +1,62 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit + TS</title>
-    <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/my-element.ts"></script>
-  </head>
-  <body>
-    <my-element>
-      <h1>Vite + Lit</h1>
-    </my-element>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Playground font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+      margin: 0 auto;
+      padding: 1em;
+      max-width: 1000px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    .block {
+      margin-block: 0 1em;
+    }
+
+    h1, h2, h3, h4 {
+      margin-bottom: 0.3em
+    }
+  </style>
+
+  <title>Intorial playground</title>
+  <script type="module" src="/src/bundles/index.ts"></script>
+  <script type="module" src="/src/components/demo.ts"></script>
+</head>
+<body>
+<intorial-demo></intorial-demo>
+
+<h1>Code block</h1>
+<div class="block">
+  <intorial-code lang="js">
+    console.log('Hello, intorialists!')
+  </intorial-code>
+</div>
+
+<div class="block">
+
+  <intorial-code class="block" lang="go">
+package main
+import "fmt"
+
+func main() {
+  fmt.Println("Hello, world")
+}
+  </intorial-code>
+</div>
+</body>
 </html>
